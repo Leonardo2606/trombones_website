@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(241, 240, 233);
+}
+
+/* Start Header CSS */
+
+.getStartButton {
+  width: 110px;
+  padding: 5px;
+  background-color: rgb(226, 186, 76);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  margin: auto;
+  margin-top: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+}
+
+.headerNavButtons {
+  background-color: inherit;
+  width: 150px;
+  font-size: 1rem;
+}
+
+.getStartButton:hover {
+  cursor: pointer;
+}
+.headerNavButtons:hover{
+  cursor: pointer;
+}
+
+#submitedText {
+  width: 150px;
+  padding: 5px;
+  background-color: rgb(226, 186, 76);
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+}
+
+/* End Header CSS */
+
+
+/* Start Body CSS*/
+
+.priceSelectButton:hover {
+  cursor: pointer;
+}
+
+/* End Body CSS */
