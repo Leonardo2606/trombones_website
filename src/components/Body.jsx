@@ -80,7 +80,7 @@ function Body() {
                         Plays similar to a Trumpet
                         Great for Jazz Bands
                         Lorem ipsum dolor.
-                        Lorem ipsum.
+                        Lorem ipsum. babum.
                     </BodyPriceParagraph>
                     <PriceSelectButton className='priceSelectButton'>Select</PriceSelectButton>
                 </PriceCard>
