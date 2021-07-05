@@ -52,4 +52,18 @@ body {
   cursor: pointer;
 }
 
+.howItWorksVideo {
+  width: 550px;
+  height: 315px;
+
+}
+
+@media (max-width:700px) {
+  .howItWorksVideo{
+    width: 400px;
+    height: 220px;
+  }
+}  
+
+
 /* End Body CSS */
