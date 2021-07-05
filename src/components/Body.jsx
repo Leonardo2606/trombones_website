@@ -45,8 +45,7 @@ function Body() {
             </BodyFeatures>
             <BodyHowItWorks id='howItWorks'>
             <iframe  
-                width="550" 
-                height="315" 
+                className='howItWorksVideo'
                 src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" 
                 frameBorder="0" allowFullScreen></iframe>
             </BodyHowItWorks>
