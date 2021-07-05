@@ -14,6 +14,9 @@ export const HeaderSectionUp = styled.section`
     justify-content: space-between;
     align-items: center;
     background-color: rgb(241, 240, 233);
+    @media (max-width: 700px) {
+        height: 60px;
+    }
 `
 
 export const HeaderSectionBottom = styled.form`
@@ -28,7 +31,12 @@ export const HeaderTitle = styled.h1`
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
-    margin-left: 100px
+    margin-left: 100px;
+    @media (max-width: 700px) {
+        width: 45%;
+        margin: auto 5px;
+        font-size: 1.2rem;
+    }
 `
 
 export const HeaderDescription = styled.h1`
@@ -52,6 +60,9 @@ export const HeaderNav = styled.nav`
     display: flex;
     justify-content: space-around;
     width: 40%;
+    @media (max-width: 700px) {
+        width: 55%;
+    }
 `
 
 export const HeaderButton = styled.button`
