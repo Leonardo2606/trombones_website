@@ -17,7 +17,7 @@ function replaceEmailInput(executed, setExecuted) {
 
 function focusElement(event) {
     const element = event.target.name;
-    document.querySelector(`#${element}`).scrollIntoView();
+    document.querySelector(`#${element}`).scrollIntoView({behavior:'smooth',block:'center'});
 }
 
 export default tromboneAccount;
