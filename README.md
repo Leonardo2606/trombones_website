@@ -1,4 +1,4 @@
-This is a simple project made with npx create-react-app for practice purpose.
+This is a simple project made with npx create-react-app for practice purpose. Check [here](https://tromboneswebsitepractice.netlify.app/)
 
 ## What was used
 
